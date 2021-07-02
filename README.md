@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Live site URL](https://jobber-landing-page.vercel.app/)
+- [Live site URL](https://montar-landing-page.vercel.app/)
 
 ## My process
 
