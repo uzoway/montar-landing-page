@@ -157,7 +157,7 @@ html, body{
     flex-direction: column;
 }
 
-.hero .partners h3{
+.hero .partners h2{
     margin-bottom: 2rem;
 }
 
@@ -466,7 +466,7 @@ footer p a{
         width: 5.4rem;
     }
 
-    .hero .partners h3 {
+    .hero .partners h2 {
         margin-bottom: 1.5rem;
     }
 
