@@ -1,0 +1,26 @@
+{
+  "name": "montar",
+  "version": "1.0.0",
+  "description": "landing page for montar app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzoway/montar-landing-page.git"
+  },
+  "keywords": [
+    "rental",
+    "service"
+  ],
+  "author": "uzoway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzoway/montar-landing-page/issues"
+  },
+  "homepage": "https://github.com/uzoway/montar-landing-page#readme",
+  "dependencies": {
+    "lazysizes": "^5.3.2"
+  }
+}
