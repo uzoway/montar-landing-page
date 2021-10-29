@@ -1,12 +1,12 @@
 // Mobile Navigation toggle
 
 
-let mobilenav = document.getElementById("mobNav");
-let logo = document.getElementById("logoImg");
+const mobilenav = document.getElementById("mobNav");
+const logo = document.getElementById("logoImg");
 
 mobilenav.style.left = "-100%";
 
-let menu = document.getElementById("mobile").addEventListener("click", () => {
+const menu = document.getElementById("mobile").addEventListener("click", () => {
     if(mobilenav.style.left == "-100%"){
         mobilenav.style.left = "0";
         menu.src = "images/close.svg";
