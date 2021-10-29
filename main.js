@@ -1,12 +1,12 @@
 // Mobile Navigation toggle
 
-var menu = document.getElementById("mobile");
-var mobilenav = document.getElementById("mobNav");
-var logo = document.getElementById("logoImg");
+
+let mobilenav = document.getElementById("mobNav");
+let logo = document.getElementById("logoImg");
 
 mobilenav.style.left = "-100%";
 
-menu.onclick = function(){
+let menu = document.getElementById("mobile").addEventListener("click", () => {
     if(mobilenav.style.left == "-100%"){
         mobilenav.style.left = "0";
         menu.src = "images/close.svg";
@@ -17,6 +17,4 @@ menu.onclick = function(){
         menu.src = "images/hamburger.svg";
         logo.style.filter = "invert(0)"
     }
-}
-
-
+});
