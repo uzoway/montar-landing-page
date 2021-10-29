@@ -6,7 +6,7 @@ const logo = document.getElementById("logoImg");
 
 mobilenav.style.left = "-100%";
 
-const menu = document.getElementById("mobile").addEventListener("click", () => {
+const openMobileNav = document.getElementById("mobile").addEventListener("click", () => {
     if(mobilenav.style.left == "-100%"){
         mobilenav.style.left = "0";
         menu.src = "images/close.svg";
