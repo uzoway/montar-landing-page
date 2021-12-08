@@ -617,12 +617,12 @@ footer p a{
     }
 
     footer .footer-row .footer-col {
-        flex-basis: 45%;
+        flex-basis: 100%;
         margin-bottom: 1rem;
     }
 
     footer .footer-row .footer-col h4 {
-        font-size: .7rem;
+        font-size: 1rem;
         line-height: 1.5;
     }
 
@@ -631,15 +631,15 @@ footer p a{
     }
 
     footer .footer-row .footer-col ul li a {
-        font-size: .6rem;
+        font-size: .8rem;
     }
 
     footer p {
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     footer p a {
-        font-size: .7rem;
+        font-size: .8rem;
     }
 }
 
