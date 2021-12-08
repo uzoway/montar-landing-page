@@ -722,3 +722,28 @@ footer p a{
         font-size: .6rem;
     }
 }
+
+@media (max-width: 280px){
+    .get-montar a {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 234px){
+    .get-montar a {
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+@media (max-width: 180px){
+    .get-montar a {
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+@media (max-width: 180px){
+    .get-montar a {
+        padding: 0.5rem 1rem;
+        font-size: .6rem;
+    }
+}
