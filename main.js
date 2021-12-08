@@ -1,20 +1,21 @@
 // Mobile Navigation toggle
 
-
-const mobilenav = document.getElementById("mobNav");
-const logo = document.getElementById("logoImg");
+const mobilenav = document.querySelector("#mobNav");
+const logo = document.querySelector("#logoImg");
 
 mobilenav.style.left = "-100%";
 
-const openMobileNav = document.getElementById("mobile").addEventListener("click", () => {
+const openMobileNav = document.querySelector("#mobile");
+
+openMobileNav.addEventListener("click", () => {
     if(mobilenav.style.left == "-100%"){
         mobilenav.style.left = "0";
-        menu.src = "images/close.svg";
-        logo.style.filter = "invert(1) brightness(30)";
+        openMobileNav.src = "images/close.svg";
+        logo.classList.add("active");
     }
     else{
         mobilenav.style.left = "-100%";
-        menu.src = "images/hamburger.svg";
-        logo.style.filter = "invert(0)"
+        openMobileNav.src = "images/hamburger.svg";
+        logo.classList.remove("active");
     }
-});
+})
