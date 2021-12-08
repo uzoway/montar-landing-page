@@ -403,6 +403,7 @@ footer p a{
 
     .hero header a img{
         width: 5rem;
+        transition: .25s;
     }
 
     .hero header nav ul {
@@ -498,6 +499,10 @@ footer p a{
         align-items: center;
         text-align: center;
         transition: .3s;
+    }
+
+    .active{
+        filter: invert(1) brightness(30);
     }
 
     .mobile-nav nav ul li{
